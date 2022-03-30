@@ -1,0 +1,40 @@
+{
+  "name": "koa2-study",
+  "version": "1.0.0",
+  "description": "#### Description 利用node.js 中的 koa2框架來搭建一個學習用的 blog。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor --harmony index",
+    "test": "node ./node_modules/mocha/bin/mocha --harmony test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:rorast/koa2-study.git"
+  },
+  "keywords": [
+    "koa2",
+    "mysql"
+  ],
+  "author": "rorast",
+  "license": "MIT",
+  "dependencies": {
+    "config-lite": "^2.0.0",
+    "ejs": "^2.7.4",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.0",
+    "koa-static-cache": "^5.1.4",
+    "koa-views": "^6.3.1",
+    "markdown-it": "^8.4.0",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^4.1.0"
+  }
+}
